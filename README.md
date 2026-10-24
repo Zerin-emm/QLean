@@ -48,8 +48,8 @@ node .\build-current.js
 成功输出：
 
 ```text
-outputSize: 132227236
-outputHash: 7abfa4f8…41e62a9
+outputSize: 132228101
+outputHash: 0a9075bc…a9e478b2
 ```
 
 ## 两个唯一版本
@@ -57,7 +57,7 @@ outputHash: 7abfa4f8…41e62a9
 | 版本 | 文件 | 大小 | SHA256 |
 |---|---|---|---|
 | 原版 | `QLean/app.asar-3.23.2` | 132,724,203 B | `8489F979…F50CB0` |
-| 当前版 | `resources/app.asar` | 132,227,236 B | `7ABFA4F8…41E62A9` |
+| 当前版 | `resources/app.asar` | 132,228,101 B | `0A9075BC…A9E478B2` |
 
 不再保留任何中间版本 asar。
 
@@ -133,6 +133,7 @@ QLean\installer\Output\QuarkCloudDrive-Setup-3.23.2-x64.exe
 - 删除悬浮球文件嗅探 tab 与托盘“本地文件嗅探”菜单
 - 移除首次启动的网页书签/全网搜索引导弹窗
 - 移除资源管理器文件夹右键“自动备份该文件夹”
+- 检查更新页保留原组件，显示 QLean 修改说明和仓库链接
 - 删除本地右键菜单五项转换/备份设置
 - 删除云解压工具栏按钮和悬浮菜单云解压图标
 - 新增“快传下载”一键按钮和“默认此路径为快传下载路径”开关，复用默认下载目录
@@ -143,3 +144,5 @@ QLean\installer\Output\QuarkCloudDrive-Setup-3.23.2-x64.exe
 - 不修改 `app.asar.unpacked` 内的原生模块。
 - 当前客户端不计划更新；如换新版本，需要以新版本原版为基础重新生成这 6 个文件。
 - 补丁不涉及登录、传输、限速、会员校验逻辑。
+
+

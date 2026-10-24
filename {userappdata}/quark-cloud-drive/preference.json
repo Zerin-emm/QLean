@@ -1,7 +1,7 @@
 {
 	"global:setting": {
 		"transport": {
-			"preventSleepOnTaskRunning": true
+			"preventSleepOnTaskRunning": false
 		},
 		"downloadPosition": {
 			"enable": false

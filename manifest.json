@@ -8,8 +8,8 @@
   },
   "current": {
     "file": "app.asar",
-    "size": 132227236,
-    "sha256": "7abfa4f861c1983f76fead4eabcb6138eda5238fef407694f7220bbc241e62a9"
+    "size": 132228101,
+    "sha256": "0a9075bc7303ffe27fc8aa902697c7e7d642023794fd27d1c70a1eaaa9e478b2"
   },
   "files": [
     {
@@ -34,13 +34,13 @@
     },
     {
       "path": "dist/renderer/modal-preference.html",
-      "size": 1469,
-      "sha256": "4aabedfa4c5c3f4ac6bfa6dd6e648a9a067fe4aed063163db856532c9fcbe463"
+      "size": 1833,
+      "sha256": "5f9887f713ae636ff2bd0c5261e3ab91ba2f99cff3d5c3b52ff729c72a29fb1d"
     },
     {
       "path": "dist/renderer/modal-preference.js",
-      "size": 5183326,
-      "sha256": "61daf9e3905962aeb49438d0912ba208f1129b39c0286cb2e7839948ceeac46f"
+      "size": 5183827,
+      "sha256": "aa0d21c79b04174269fc0ecb4f1c3b883a585f07b85d74538fee32f97991804c"
     }
   ],
   "features": [
@@ -57,6 +57,7 @@
     "删除悬浮球文件嗅探 tab 与托盘本地文件嗅探菜单",
     "移除首次启动的网页书签/全网搜索引导弹窗",
     "移除资源管理器文件夹右键“自动备份该文件夹”",
+    "检查更新页保留原组件，显示 QLean 修改说明和仓库链接",
     "删除本地右键菜单五项转换/备份设置",
     "删除云解压工具栏按钮和悬浮菜单云解压图标",
     "新增快传下载一键按钮与默认快传下载路径开关，目录复用默认下载位置"
