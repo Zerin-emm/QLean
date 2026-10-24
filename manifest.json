@@ -1,0 +1,68 @@
+{
+  "app": "QuarkCloudDrive",
+  "version": "3.23.2",
+  "original": {
+    "file": "app.asar-3.23.2",
+    "size": 132724203,
+    "sha256": "8489f979f920b9a1c17dc480c29ee6c2519e4368942c587d1ffedbeaabf50cb0"
+  },
+  "current": {
+    "file": "app.asar",
+    "size": 132227236,
+    "sha256": "7abfa4f861c1983f76fead4eabcb6138eda5238fef407694f7220bbc241e62a9"
+  },
+  "files": [
+    {
+      "path": "dist/main/main.js",
+      "size": 1507891,
+      "sha256": "af70fafdfb6adf28719b60b7920cd33d53c1144bf493d82547eb4ce604fef54f"
+    },
+    {
+      "path": "dist/renderer/floating-window-list.js",
+      "size": 1967551,
+      "sha256": "dbf9f6aca884b4afdec9491ca8848bfdc3e926c0d30e2b03f20eb16e30faed7c"
+    },
+    {
+      "path": "dist/renderer/index.html",
+      "size": 9361,
+      "sha256": "35278e8d24e9282667772280e16bb62abb3d4019be260979fa09f1260269e5e5"
+    },
+    {
+      "path": "dist/renderer/index.js",
+      "size": 7447760,
+      "sha256": "993fa62317274f81e09bf93db3055434e22bc9934edfca7a3957f13e52a232f3"
+    },
+    {
+      "path": "dist/renderer/modal-preference.html",
+      "size": 1469,
+      "sha256": "4aabedfa4c5c3f4ac6bfa6dd6e648a9a067fe4aed063163db856532c9fcbe463"
+    },
+    {
+      "path": "dist/renderer/modal-preference.js",
+      "size": 5183326,
+      "sha256": "61daf9e3905962aeb49438d0912ba208f1129b39c0286cb2e7839948ceeac46f"
+    }
+  ],
+  "features": [
+    "左侧导航仅保留首页/传输/快传，隐藏备份与工具箱入口并加路由守卫",
+    "恢复窗口大小/位置记忆",
+    "设置页移除备份设置/客服咨询/安全公告/插件管理，禁用更新检查并预隐藏更新信息",
+    "首页常用工具只保留回收站，移除删除弹窗/回收站的续费链接、Office备份入口、手机图标",
+    "移除文件恢复服务入口与设置项，深链重定向",
+    "移除隐私设置中的自动备份记录开关",
+    "抑制极速下载试用通知",
+    "删除下载页下载速度/体验券整条组件",
+    "隐藏上传/云收藏升级提示、右上角VIP推广、悬停立即加速，恢复设置按钮原位置",
+    "搜索只保留网盘搜索",
+    "删除悬浮球文件嗅探 tab 与托盘本地文件嗅探菜单",
+    "移除首次启动的网页书签/全网搜索引导弹窗",
+    "移除资源管理器文件夹右键“自动备份该文件夹”",
+    "删除本地右键菜单五项转换/备份设置",
+    "删除云解压工具栏按钮和悬浮菜单云解压图标",
+    "新增快传下载一键按钮与默认快传下载路径开关，目录复用默认下载位置"
+  ],
+  "notes": [
+    "build-current.js 默认从同目录 app.asar-3.23.2 重建当前版，并校验输出 SHA256。",
+    "不修改 app.asar.unpacked 内的原生模块。"
+  ]
+}

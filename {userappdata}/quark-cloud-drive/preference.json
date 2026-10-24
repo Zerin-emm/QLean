@@ -1,0 +1,53 @@
+{
+	"global:setting": {
+		"transport": {
+			"preventSleepOnTaskRunning": true
+		},
+		"downloadPosition": {
+			"enable": false
+		},
+		"uploadPosition": {
+			"where": [],
+			"enable": false,
+			"userMap": {
+				"AATaAQKZYcHeiqWdO5Y2qPN8": {
+					"enable": false,
+					"where": [],
+					"isEdited": false
+				}
+			}
+		},
+		"permissionSwitch": {
+			"notificationEnable": true,
+			"floatingWinEnable": false,
+			"autoLaunchEnable": false,
+			"setToMyComputerEnable": false,
+			"enableRestoreServe": false
+		},
+		"menuSwitch": {
+			"autoBackupEnable": true,
+			"toPhoneEnable": false,
+			"uploadEnable": false,
+			"pdfConvertEnable": false,
+			"officeConvertEnable": false,
+			"picConvertEnable": false,
+			"noteConvertEnable": false
+		},
+		"clipboardForDownloadEnable": false,
+		"registerUriSchemeSwitch": {
+			"http": false,
+			"magnet": false,
+			"torrent": false
+		},
+		"initedAutoLaunchEnable": true,
+		"initedSetToMyComputerEnable": true,
+		"highLoadCriteria": {
+			"manual": false,
+			"batteryThreshold": 20,
+			"cpuThreshold": 80,
+			"memoryThreshold": 80
+		},
+		"invitePlan": null
+	},
+	"commonUploadPathKey": "夸克上传文件"
+}
